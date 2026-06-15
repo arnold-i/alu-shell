@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script lists current directory names showing text after the first dash
+for file in *; do
+echo "$file" | cut -d'-' -f2-
+done
